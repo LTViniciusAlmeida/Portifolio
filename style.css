@@ -67,6 +67,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     list-style: none;
     width: 200px;
 }
@@ -195,7 +196,7 @@ header {
     }
     
     #linkedin {
-        margin-right: 25px;
+        margin-right: 0;
     }
 }
 
@@ -204,5 +205,9 @@ header {
         background-position-x: center;
         background-position-y: 0;
         background-size: auto;
+    }
+
+    #menu {
+        align-items: center;
     }
 }
