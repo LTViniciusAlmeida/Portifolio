@@ -37,7 +37,11 @@ header {
     background-repeat: no-repeat;
     background-position-x: center;
     background-size: contain;
-    background-position-y: auto;
+    background-position-y: center;
+}
+
+header img {
+    max-width: fit-content;
 }
 
 #nav {
