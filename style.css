@@ -144,7 +144,7 @@ header {
     }
 }
 
-@media (min-width: 601px) and (max-width: 900px) {
+@media (orientation: landscape) and (max-height: 600px) {
     header {
         border: 5px solid yellow;
         justify-content: flex-start;
