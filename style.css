@@ -228,3 +228,72 @@ header {
         margin: 0;
     }
 }
+
+@media (max-width: 600px) {
+    header {
+        border: 5px solid yellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 25px 0;
+        padding-top: 25px;
+        background-image: url('images/LT-png-fundo-branco-verde.png');
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: bottom;
+        background-size: contain;
+    }
+        
+    #nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        height: 15%;
+        width: 100%;
+        border: 5px solid blue;
+    }
+      
+    #logo {
+        border: 5px solid blue;
+        margin: 5px auto;
+    }
+    
+    #trade-mark {
+        border: 5px solid blue;
+        margin: 5px auto;
+    }
+    
+    #menu {
+        border: 5px solid green;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        list-style: none;
+        height: 15%;
+        width: 100%;
+    }
+    
+    #menu li {
+        padding: 10px;
+    }
+    
+    #professional-midia {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15%;
+        width: 100%;
+        border: 5px solid brown;
+    }
+    
+    #professional-midia a i{
+        text-decoration: none;
+        font-size: 32px;
+        color: var(--cor-1);
+    }
+
+    #linkedin {
+        margin: 0;
+    }
+}
