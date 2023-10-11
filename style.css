@@ -93,25 +93,16 @@ header {
     margin-right: 25px;
 }
 
-@media (max-width: 361px) {
+@media (max-width: 600px) {
     header {
         border: 5px solid yellow;
-        display: flex;
-        flex-direction: column;
         justify-content: flex-start;
-        background-image: url('images/LT-png-fundo-branco-verde.png');
-        background-repeat: no-repeat;
-        background-position-x: center;
         background-position-y: bottom;
-        background-size: contain;
     }
         
     #nav {
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: start;
-        height: 15%;
+        height: auto;
         width: 100%;
         border: 5px solid blue;
     }
@@ -128,11 +119,10 @@ header {
     
     #menu {
         border: 5px solid green;
-        display: flex;
         flex-direction: row;
         align-items: center;
         list-style: none;
-        height: 15%;
+        height: auto;
         width: 100%;
     }
     
@@ -141,162 +131,71 @@ header {
     }
     
     #professional-midia {
-        display: flex;
         justify-content: center;
         align-items: center;
-        height: 15%;
+        height: auto;
         width: 100%;
         border: 5px solid brown;
     }
     
-    #professional-midia a i{
-        text-decoration: none;
-        font-size: 32px;
-        color: var(--cor-1);
-    }
-
     #linkedin {
         margin: 0;
     }
 }
 
-@media (max-width: 450px) {
+@media (min-width: 601px) and (max-width: 900px) {
     header {
         border: 5px solid yellow;
-        display: flex;
-        flex-direction: column;
         justify-content: flex-start;
-        background-image: url('images/LT-png-fundo-branco-verde.png');
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: bottom;
-        background-size: contain;
-    }
-        
-    #nav {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: start;
-        height: 15%;
-        width: 100%;
-        border: 5px solid blue;
-    }
-      
-    #logo {
-        border: 5px solid blue;
-        margin: 5px auto;
-    }
-    
-    #trade-mark {
-        border: 5px solid blue;
-        margin: 5px auto;
-    }
-    
-    #menu {
-        border: 5px solid green;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        list-style: none;
-        height: 15%;
-        width: 100%;
-    }
-    
-    #menu li {
-        padding: 10px;
-    }
-    
-    #professional-midia {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 15%;
-        width: 100%;
-        border: 5px solid brown;
-    }
-    
-    #professional-midia a i{
-        text-decoration: none;
-        font-size: 32px;
-        color: var(--cor-1);
-    }
-
-    #linkedin {
-        margin: 0;
-    }
-}
-
-@media (min-width: 415px) and (max-width: 640px) {
-    header {
-        border: 5px solid yellow;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        background-image: url('images/LT-png-fundo-branco-verde.png');
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: bottom;
-        background-size: contain;
-    }
-        
-    #nav {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: start;
-        height: 15%;
-        width: 100%;
-        border: 5px solid blue;
-    }
-      
-    #logo {
-        border: 5px solid blue;
-        margin: 5px auto;
-    }
-    
-    #trade-mark {
-        border: 5px solid blue;
-        margin: 5px auto;
-    }
-    
-    #menu {
-        border: 5px solid green;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        list-style: none;
-        height: 10%;
-        width: 100%;
-    }
-    
-    #menu li {
-        padding: 10px;
-    }
-    
-    #professional-midia {
-        align-self: flex-end;
-        justify-content: flex-end;
-        align-items: flex-end;
+        background-position-y: 40px;
         height: 100%;
-        border: 5px solid brown;
+    }
+        
+    #nav {
+        flex-direction: row;
+        height: auto;
+        width: 100%;
+        border: 5px solid blue;
+    }
+      
+    #logo {
+        border: 5px solid blue;
+        margin: 5px auto;
     }
     
+    #trade-mark {
+        border: 5px solid blue;
+        margin: 5px auto;
+    }
+    
+    #menu {
+        border: 5px solid green;
+        flex-direction: column;
+        align-items: flex-start;
+        list-style: none;
+        height: auto;
+        margin: auto 0;
+        width: 100%;
+    }
+    
+    #menu li {
+        padding: 20px;
+    }
+    
+    #professional-midia {
+        justify-content: flex-end;
+        height: auto;
+        width: 100%;
+        border: 5px solid brown;
+    }
+
     #professional-midia a i{
         text-decoration: none;
-        font-size: 32px;
-        padding: 10px;
-        color: var(--cor-1);
+        padding: 25px;
     }
     
     #linkedin {
         margin-right: 25px;
-    }
-}
-
-@media (min-width: 641px) and (max-width: 789px) {
-    header {
-        background-position-y: bottom;
     }
 }
 
