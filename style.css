@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/* ==========
+variables
+========== */
+
+:root {
+    --cor-1: #00040D;
+    --cor-2: #4C734E;
+    --cor-3: #022601;
+    --cor-4: #010D00;
+    --cor-5: #736A5A;
+}
+
+/* ==========
+global styles
+========== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==========
+header
+========== */
+
+header {
+    border: 5px solid yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: var(--cor-5);
+    background-image: url('images/LT-png-fundo-branco-verde.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    background-position-y: auto;
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav h1 {
+    width: 200px;
+    text-align: center;
+}
+
+#logo {
+    border: 5px solid blue;
+    margin: 25px auto 0 25px;
+}
+
+#trade-mark {
+    border: 5px solid blue;
+    margin: 25px 25px 0 auto;
+}
+
+#menu {
+    border: 5px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    width: 200px;
+}
+
+#menu li {
+    padding: 25px;
+}
+
+#professional-midia {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 5px solid brown;
+}
+
+#professional-midia a i{
+    text-decoration: none;
+    font-size: 32px;
+    padding: 10px;
+    color: var(--cor-1);
+}
+
+#linkedin {
+    margin-right: 25px;
+}
+
