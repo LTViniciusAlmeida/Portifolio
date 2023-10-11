@@ -294,11 +294,9 @@ header {
     }
 }
 
-@media (min-width: 641px) and (max-width: 900px) {
+@media (min-width: 641px) and (max-width: 789px) {
     header {
-        background-position-y: 35px;
-        background-size: contain;
-        height: auto;
+        background-position-y: bottom;
     }
 }
 
