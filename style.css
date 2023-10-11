@@ -10,6 +10,8 @@ variables
     --cor-3: #022601;
     --cor-4: #010D00;
     --cor-5: #736A5A;
+    --cor--texto: #E5D3B7;
+    outra opção de cor de texto um pouco mais escura é: #E4D4B4;
 }
 
 /* ==========
@@ -27,12 +29,12 @@ header
 ========== */
 
 header {
-    border: 5px solid yellow;
+    /* border: 5px solid yellow; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
-    background-color: var(--cor-5);
+    background-color: var(--cor-1);
     background-image: url('images/LT-png-fundo-branco-verde.png');
     background-repeat: no-repeat;
     background-position-x: center;
@@ -48,46 +50,55 @@ header {
 }
 
 #nav h1 {
-    width: 200px;
+    width: auto;
     text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+    color: var(--cor--texto);
 }
 
 #logo {
-    border: 5px solid blue;
-    margin: 25px auto 0 25px;
+    /* border: 5px solid blue; */
+    margin: 25px auto 0 50px;
 }
 
 #trade-mark {
-    border: 5px solid blue;
-    margin: 25px 25px 0 auto;
+    /* border: 5px solid blue; */
+    margin: 25px 50px 0 auto;
 }
 
 #menu {
-    border: 5px solid green;
+    /* border: 5px solid green; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     list-style: none;
+    color: var(--cor--texto);
+    font-size: 1.5em;
     width: 200px;
 }
 
 #menu li {
     padding: 25px;
+    margin-left: 25px;
 }
 
 #professional-midia {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    border: 5px solid brown;
+    /* border: 5px solid brown; */
 }
 
 #professional-midia a i{
     text-decoration: none;
-    font-size: 32px;
+    font-size: 2em;
     padding: 10px;
-    color: var(--cor-1);
+    margin: 10px;
+    color: var(--cor--texto);
+    border: 1px solid var(--cor--texto);
+    border-radius: 100%;
 }
 
 #linkedin {
@@ -96,7 +107,7 @@ header {
 
 @media (max-width: 600px) {
     header {
-        border: 5px solid yellow;
+        /* border: 5px solid yellow; */
         justify-content: flex-start;
         background-position-y: bottom;
     }
@@ -105,21 +116,21 @@ header {
         flex-direction: column;
         height: auto;
         width: 100%;
-        border: 5px solid blue;
+        /* border: 5px solid blue; */
     }
       
     #logo {
-        border: 5px solid blue;
+        /* border: 5px solid blue; */
         margin: 5px auto;
     }
     
     #trade-mark {
-        border: 5px solid blue;
+        /* border: 5px solid blue; */
         margin: 5px auto;
     }
     
     #menu {
-        border: 5px solid green;
+        /* border: 5px solid green; */
         flex-direction: row;
         align-items: center;
         list-style: none;
@@ -136,7 +147,7 @@ header {
         align-items: center;
         height: auto;
         width: 100%;
-        border: 5px solid brown;
+        /* border: 5px solid brown; */
     }
     
     #linkedin {
@@ -146,7 +157,7 @@ header {
 
 @media (orientation: landscape) and (max-height: 600px) {
     header {
-        border: 5px solid yellow;
+        /* border: 5px solid yellow; */
         justify-content: flex-start;
         background-position-y: 40px;
         height: 100%;
@@ -156,21 +167,21 @@ header {
         flex-direction: row;
         height: auto;
         width: 100%;
-        border: 5px solid blue;
+        /* border: 5px solid blue; */
     }
       
     #logo {
-        border: 5px solid blue;
+        /* border: 5px solid blue; */
         margin: 5px auto;
     }
     
     #trade-mark {
-        border: 5px solid blue;
+        /* border: 5px solid blue; */
         margin: 5px auto;
     }
     
     #menu {
-        border: 5px solid green;
+        /* border: 5px solid green; */
         flex-direction: column;
         align-items: flex-start;
         list-style: none;
@@ -187,7 +198,7 @@ header {
         justify-content: flex-end;
         height: auto;
         width: 100%;
-        border: 5px solid brown;
+        /* border: 5px solid brown; */
     }
 
     #professional-midia a i{
@@ -205,9 +216,5 @@ header {
         background-position-x: center;
         background-position-y: 0;
         background-size: auto;
-    }
-
-    #menu {
-        align-items: center;
     }
 }
