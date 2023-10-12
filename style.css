@@ -22,6 +22,7 @@ global styles
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* ==========
@@ -52,7 +53,7 @@ header {
 #nav h1 {
     width: auto;
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     font-weight: bolder;
     color: var(--cor--texto);
 }
@@ -75,13 +76,14 @@ header {
     align-items: flex-start;
     list-style: none;
     color: var(--cor--texto);
-    /* font-size: 1.5em; */
+    font-size: 1.5em;
+    font-weight: bolder;
     width: 200px;
 }
 
 #menu li {
-    /* padding: 25px; */
-    /* margin-left: 25px; */
+    padding: 25px;
+    margin-left: 25px;
 }
 
 #professional-midia {
@@ -113,36 +115,45 @@ header {
     }
         
     #nav {
-        flex-direction: column;
+        flex-direction: row;
         height: auto;
         width: 100%;
         /* border: 5px solid blue; */
+    }
+
+    #nav h1 {
+        font-size: 2em;
+        margin: 25px 0;
     }
       
     #logo {
         /* border: 5px solid blue; */
-        margin: 5px auto;
+        margin: 5px 5px 5px auto;
     }
     
     #trade-mark {
         /* border: 5px solid blue; */
-        margin: 5px auto;
+        margin: 5px auto 5px 5px;
     }
     
     #menu {
         /* border: 5px solid green; */
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         list-style: none;
         height: auto;
         width: 100%;
+        font-size: 1.2em;
+        font-weight: bolder;
     }
     
     #menu li {
-        padding: 10px;
+        padding: 5px;
+        margin: 5px;
     }
     
     #professional-midia {
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         height: auto;
@@ -165,19 +176,26 @@ header {
         
     #nav {
         flex-direction: row;
+        justify-content: flex-end;
         height: auto;
         width: 100%;
         /* border: 5px solid blue; */
     }
+
+    #nav h1 {
+        font-size: 2em;
+    }
       
     #logo {
         /* border: 5px solid blue; */
-        margin: 5px auto;
+        padding: 5px;
+        margin: 5px;
     }
     
     #trade-mark {
-        /* border: 5px solid blue; */
-        margin: 5px auto;
+        /* border: 5x solid blue; */
+        padding: 5px;
+        margin: 5px;
     }
     
     #menu {
@@ -207,7 +225,7 @@ header {
     }
     
     #linkedin {
-        margin-right: 0;
+        margin: 0 5px 5px 0;
     }
 }
 
